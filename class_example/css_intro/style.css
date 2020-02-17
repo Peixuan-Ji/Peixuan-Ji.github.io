@@ -8,5 +8,11 @@ font-size: 12pt;
 font-size: 12px;
 font-size: 400%;
 }
-colorhexa
-pantone
+/* colorhexa
+pantone */
+
+
+.flan {
+  font-weight:400;
+  color: orange;
+}
