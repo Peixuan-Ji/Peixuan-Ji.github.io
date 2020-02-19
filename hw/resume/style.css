@@ -1,1 +1,7 @@
-background-color:#fae5d3
+body{
+background-color:#fae5d3;
+margin: 150px 100px 100px 100px; 
+}
+h1{
+  color:#dc7633;
+}
