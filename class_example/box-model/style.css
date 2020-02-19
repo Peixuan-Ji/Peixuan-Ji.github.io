@@ -1,7 +1,9 @@
 body{
   background-color: pink;
 }
+
 header{
   background: gray;
-  border:4px solid #f9423a
+  border:3px solid #f9423a
+  padding:30px
 }
