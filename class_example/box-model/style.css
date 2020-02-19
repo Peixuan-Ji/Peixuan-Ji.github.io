@@ -1,6 +1,7 @@
 body{
   background-color: pink;
   max-width: 500px;
+  margin:;
 }
 
 header{
@@ -20,4 +21,18 @@ main{
   width:100%;
   background-color: teal;
   padding: 30px;
+}
+
+wed{
+  background-color: yellow;
+  /* if you have a values of padding, they are applied in clockwise order around the box ; top right bottom left*/
+  padding: 30px 20px 20px 100px;
+  margin:;
+}
+
+footer{
+  color: green;
+  background-color: orange;
+  height: 100%;
+  width:100%;
 }
