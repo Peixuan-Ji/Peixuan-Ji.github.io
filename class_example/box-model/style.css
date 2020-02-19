@@ -1,9 +1,23 @@
 body{
   background-color: pink;
+  max-width: 500px;
 }
 
 header{
   background: gray;
   border:3px solid #f9423a
-  padding:30px
+  /* padding is for space between content and border */
+  padding:30px;
+  margin:50px;
+  /* margin is for the space the boeder and other boxes */
+  height: 100px;
+  width: 100px;
+  /* height and width is for the content itself */
+}
+
+main{
+  height: 100%;
+  width:100%;
+  background-color: teal;
+  padding: 30px;
 }
