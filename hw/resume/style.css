@@ -1,14 +1,14 @@
 body{
 background-color:#fae5d3;
 margin: 150px 100px 100px 100px;
+font-family: "montserrat",sans-serif;
 }
 h1{
   color:#dc7633;
 }
 a1{
 	text-decoration: none;
-	color : purple;
-	font-family: time new roman;
+	color : black;	
 }
 a1:hover{
 	font-size:30px;
