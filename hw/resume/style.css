@@ -1,7 +1,25 @@
 body{
 background-color:#fae5d3;
-margin: 150px 100px 100px 100px; 
+margin: 150px 100px 100px 100px;
 }
 h1{
   color:#dc7633;
+}
+a1{
+	text-decoration: none;
+	color : purple;
+	font-family: time new roman;
+}
+a1:hover{
+	font-size:30px;
+}
+
+a2{
+	font-size: 20px;
+}
+t1{
+	color : black;
+}
+t2{
+	color : black;
 }
