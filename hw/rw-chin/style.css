@@ -13,7 +13,6 @@ section {
 margin-bottom: 4%;
 }
 
-/* A gallery grid */
 .grid1-container {
 display: grid;
 /* you can use the following two properties to define the height of your rows or the width of your columns. Units you can use for this are px, %, fr units, and em/rem. */
@@ -51,8 +50,6 @@ grid-row: 2/3;
 }
 
 /* End of gallery grid code */
-
-/* Text 1 - Putting a headline and two different paragraphs in separate columns*/
 
 .grid2-container {
 display: grid;
