@@ -1,4 +1,18 @@
 body{
   background-color:#b0c4de;
-  text-align: center;
+  text-align: justify;
+}
+h1{
+  font-family: Helvetica;
+  color: #A04000;
+}
+h2{
+  font-style: italic;
+}
+h3{
+  font-family: cursive;
+}
+
+h4{
+  font-family: cursive;
 }
