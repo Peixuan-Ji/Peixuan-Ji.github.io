@@ -24,11 +24,10 @@ header{
     grid-template-rows: repeat(2, auto);
 }
 
+
 .sc1 {
 display: grid;
-grid-gap: 5%;
-grid-template-columns: 150px 1fr;
-grid-template-rows: 50px;
+grid-template-columns: repeat(2, auto);
 }
 
 .sc1-img {
@@ -45,7 +44,6 @@ grid-row: 2/3;
 .sc2 {
 display: grid;
 grid-template-columns: repeat(3, auto);
-grid-template-rows: 150px 150px;
 grid-column-gap: 20px;
 grid-row-gap: 30px;
 }
