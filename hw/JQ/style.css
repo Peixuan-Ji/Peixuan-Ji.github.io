@@ -16,38 +16,69 @@ header{
   text-align: center;
 }
 
-
+.nav {
+    height: 50px;
+    line-height: 50px;
+    background: #c7161e;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.nav li {
+   
+    height: 50px;
+    float: left;
+    text-align: center;
+    list-style: none;
+}
+.nav li.active{
+	background-color: #000;
+	color: #fff;
+}
+.nav li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+     padding: 0 30px;
+}
 .box{
     border:1px solid #666;
     padding:0 5px;
     display: grid;
     grid-template-rows: repeat(2, auto);
 }
-
-
+.btn-text{
+	display: none;
+}
 .sc1 {
-display: grid;
-grid-template-columns: repeat(2, auto);
+overflow: hidden;
+padding: 20px;
 }
 
 .sc1-img {
-grid-column: 1/2;
-grid-row: 2/3;
-width:300px;
+width: 300px;
+float: left;
 }
 
 .sc1-text {
-grid-column: 2/3;
-grid-row: 2/3;
+float: left;
+width: 500px;
+margin-left: 30px;
+line-height: 1.6;
 }
 
 .sc2 {
-display: grid;
-grid-template-columns: repeat(3, auto);
-grid-column-gap: 20px;
-grid-row-gap: 30px;
+	overflow: hidden;
 }
-
+.sc2 img{
+	width: 31%;
+	margin: 1%;
+	height: 200px;
+	float: left;
+	box-sizing: border-box;
+}
+.sc2 .img{
+	border: 2px solid red;
+}
 .sc3{
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -73,4 +104,18 @@ margin-top: 120px;
 border-top: 3px solid #556b2f;
 padding-top: 10px;
 height: 150px;
+}
+
+.btn{
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	margin: 0 auto;
+	border: none;
+	outline: none;
+	text-align: center;
+	border-radius: 8px;
+	font-size: 16px;
+	cursor: pointer;
 }
