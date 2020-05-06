@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>TRAVELER</title>
+  <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://use.fontawesome.com/releases/v5.0.3/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Candara:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link type="text/css" rel="stylesheet" href="js/swiper/dist/css/swiper.min.css">
+</head>
+
+<body id="index">
+  <header>
+    <div class="container">
+      <div class="top">
+        <a href="##" id="nav">
+          <img src="image/icon7.png" width="20">
+        </a>
+        <img src="image/logo.png" class="logo">
+        <div class="nav" id="navBox">
+          <a href="index.html" class="active">TRAVELER</a>
+          <a href="about.html">ABOUT US</a>
+          <a href="account.html">ACCOUNT</a>
+          <a href="location.html">LOCATIONS</a>
+          <a href="contact.html">CONTACT US</a>
+
+        </div>
+      </div>
+
+    </div>
+  </header>
+  <div class="swiper">
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="image/m1.jpg" alt="gallery">
+          <div class="swiper-tit">
+            <h2>TRAVELER </h2>
+            <p>Go anywhere you want to go</p>
+            <a href="##">Log in / Sign up</a>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="image/m2.jpg" alt="gallery">
+          <div class="swiper-tit">
+            <h2>TRAVELER </h2>
+            <p>See anyone you want to see</p>
+            <a href="##">Log in / Sign up</a>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="image/m3.jpg" alt="gallery">
+          <div class="swiper-tit">
+            <h2>TRAVELER </h2>
+            <p>We are here for you. ❤ </p>
+            <a href="##">Log in / Sign up</a>
+          </div>
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script src="js/swiper/dist/js/swiper.min.js"></script>
+  <script src="js/index.js"></script>
+  <script type="text/javascript">
+    //swipe
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 0,
+      centeredSlides: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+  </script>
+
+  <footer>
+    <hr width="50%">
+    <h1 class=footerh><em><i><sup>Traveler</sup></i> <sub>Anywhere anytime</sub></em></h1>
+
+  </footer>
+  <!-- sign up -->
+  <div id="layer">
+    <a href="javascript:;" id="close" style="float: right;margin:5px 10px 0 0">x</a>
+    <form action="##">
+      <div class="clearfix">
+        <div class="item">
+          <input type="text" placeholder="Username" class="ipt">
+        </div>
+        <div class="item">
+          <input type="password" placeholder="Password" class="ipt">
+        </div>
+      </div>
+
+
+
+      <input type="submit" class="btn" value="Login">
+
+    </form>
+  </div>
+  <script type="text/javascript">
+    $(function() {
+      $('.swiper-tit').find('a').click(function() {
+        $('#layer').fadeIn();
+      })
+      $('#close').click(function() {
+        $('#layer').hide();
+      })
+
+    })
+
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110783772-0"></script>;
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-110783771-0');
+
+  </script>
+
+</body>
+
+</html>
